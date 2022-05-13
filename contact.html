@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <link rel="stylesheet" href="libs/css/bootstrap.css">
+
+    
+
+    <link rel="apple-touch-icon" sizes="180x180" href="libs/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="libs/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="libs/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="libs/favicon_io/site.webmanifest">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/92e4fcec19.js" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+
+    <link rel="stylesheet" href="libs/css/styles.css">
+
+    <title>Spirit Gym</title>
+  </head>
+
+  <body>
+
+    <div id="loader-box">
+      <div id='loader-container'>
+        <img id="loader-gif" src='libs/images/loading-gif.gif'>
+      </div>
+    </div>
+
+    
+    <nav class="nav">
+        <a href="index.html">
+          <img src="libs/images/log-new.png">
+        </a>
+        
+        <ul class="nav-list">
+          <a href="index.html"><li>Home</li></a>
+          <a href="membership.html"><li>Memberships</li></a>
+          <a href="gym.html"><li>The Gym</li></a>
+          <a href="team.html"><li>The Team</li></a>
+          <a href="about.html"><li>About</li></a>
+          <a href="contact.html"><li>Contact</li></a>
+        </ul>
+
+        <a id="hidden-nav" class="hidden-nav" href="#"><i class="fas fa-bars"></i></a>
+
+    </nav>
+
+    <div id="hidden-nav-container" class="hidden-nav-container">
+      <a href="index.html">Home</a>
+      <a href="membership.html">Memberships</a>
+      <a href="gym.html">The Gym</a>
+      <a href="team.html">The Team</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+<!------------------------------------------------------------------------------------------------------>
+
+    <h1 class="about-us-header">Contact Us</h1>
+
+    <div class="contact-container">
+        <form class="contact-form">
+
+          <div class="input-group mb-3 form-input">
+            <input id="name-input" type="text" name="name" class="form-control input-bar" placeholder="Name" aria-label="Username" aria-describedby="basic-addon1" required>
+          </div>
+
+          <div class="input-group mb-3 form-input">
+            <input id="email-input" name="email" type="email" class="form-control input-bar" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1" required>
+          </div>
+
+          <div class="input-group text-area form-input">
+            <textarea  name="message" placeholder="Your Message" class="form-control message-input" aria-label="With textarea" required></textarea>
+          </div>
+
+          <div class="centre">
+            <button id="contact-send-btn" type="submit" class="btn btn-primary">Send</button>
+          </div>
+
+        </form>
+
+      </div>
+
+    
+    
+<!------------------------------------------------------------------------------------------------------>
+    <footer>
+      <div class="footer-container">
+        <div>
+          <ul class="footer-links list">
+            <li class="footer-header">Navigation</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="membership.html">Membership</a></li>
+            <li><a href="gym.html">The Gym</a></li>
+            <li><a href="team.html">The Team</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <ul class="footer-details list">
+            <li class="footer-header">Address</li>
+            <li>12 London Road</li>
+            <li>SG4 3AG</li>
+            <li>Hitchin</li>
+            <li>Hertfordshire</li>
+          </ul>
+        </div>
+
+        <div>
+          <ul class="footer-contact list">
+            <li class="footer-header">Contact</li>
+            <li>help@spiritgym.com</li>
+            <li>12341 123 123</li>
+          </ul>
+        </div>
+
+        <div>
+          <ul class="footer-follow list">
+            <li class="footer-header">Follow</li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <ul class="footer-legal list">
+            <li class="footer-header">Legal</li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+  
+  <!--<script type="application/javascript" src="libs/js/jquery-2.2.3.min.js"></script>-->
+  <script type="text/javascript" src="libs/js/bootstrap.bundle.js"></script>
+  <script type="application/javascript" src="libs/js/contact.js"></script>
+
+
+  </body>
+
+</html>
